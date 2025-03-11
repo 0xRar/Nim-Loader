@@ -1,6 +1,7 @@
 # Nim-Loader
 A not too basic shellcode loader written in nim with the functionality to send a request to discord webhooks,
-it uses the windows api for allocating memory, changing memory protection, and injecting the shellcode to the created memory buffer.
+it uses the windows api for allocating memory, changing memory protection, injecting the shellcode 
+to the created memory buffer and getting the computer name / hostname.
 
 ## Compile and Run:
 compile:
